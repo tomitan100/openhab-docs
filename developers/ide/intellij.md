@@ -16,7 +16,7 @@ title: IntelliJ
 
 This article refers to the directory where you installed the distribution as `<DISTRO_DIR>`.
 
-## Build the addons repostory
+## Build the addons repository
 
 1. fork and clone the [openhab addons repository](https://www.github.com/openhab/openhab-addons) into a new directory (Reference `<ADDON_DIR>` from now on for this arcticle) with `git clone https://github.com/<yourgitusername>/openhab-addons`  (replace git user name accordingly)
 
@@ -26,8 +26,8 @@ This article refers to the directory where you installed the distribution as `<D
 
 1. Use Maven to clean & install the addons project
 
-    - mvn clean install in the root of `<ADDON_DIR>` using commandline Maven (or IntelliJ Maven view)
-    - some of the addons might fail to build - if it's not the one, you're interested in that should not bother you
+    - mvn clean install in the root of `<ADDON_DIR>` using commandline Maven (or IntelliJ Maven view)    
+    - some of the addons might fail to build - if it's not the one you're interested in that should not bother you
     - when the Maven project finished, you should find the freshly built addon JAR in the target directory
 
 ## Debug your addon
